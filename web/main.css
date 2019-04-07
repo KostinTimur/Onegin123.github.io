@@ -1,0 +1,48 @@
+
+body {
+	background-color: #f5f0f0;
+	}
+h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: red;
+	font-family: Times new roman;
+	text-align: center;
+}    
+h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: blue; 
+	font-family: Arial;
+
+
+}  
+p {font-style: italic;
+	margin: 20px;
+}
+
+div {
+	width: 50%;
+	margin: auto;
+	box-shadow: 10px 1px 10px 1px rgba(0,0,0,0.3)
+
+}
+img {
+	max-width: 100%;
+}
+h2{text-decoration: underline;}
+a{
+	font-size: 20px;
+	color:tomato;
+	text-decoration: none;
+}
+a:hover {color:black;}
+a: visit{color:green;}
+a:active{color:black;}
+ul{
+	/*list-style-type: square;*/
+	list-style-image:  url("img/Dog.png");
+}
+ol {
+	list-style-image: url("img/marker1.gif");
+}
